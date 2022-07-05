@@ -1,0 +1,12 @@
+version: '3'
+services:
+  proxy:
+    image: nginx:latest
+    ports:
+#      - "80:80"
+      - "443:443"
+    volumes:
+      - ./circleci/main.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/snippets/:/etc/nginx/snippets/
+      - ./certs/:/etc/ssl/certs/
+
