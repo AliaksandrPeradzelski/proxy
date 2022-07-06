@@ -1,0 +1,312 @@
+2022/07/06 08:45:58 kid1| Set Current Directory to /var/cache/squid
+2022/07/06 08:45:58 kid1| Creating missing swap directories
+2022/07/06 08:45:58 kid1| /var/cache/squid exists
+2022/07/06 08:45:58 kid1| Making directories in /var/cache/squid/00
+2022/07/06 08:45:59 kid1| Making directories in /var/cache/squid/01
+2022/07/06 08:46:00 kid1| Making directories in /var/cache/squid/02
+2022/07/06 08:46:00 kid1| Making directories in /var/cache/squid/03
+2022/07/06 08:46:01 kid1| Making directories in /var/cache/squid/04
+2022/07/06 08:46:02 kid1| Making directories in /var/cache/squid/05
+2022/07/06 08:46:02 kid1| Making directories in /var/cache/squid/06
+2022/07/06 08:46:03 kid1| Making directories in /var/cache/squid/07
+2022/07/06 08:46:03 kid1| Making directories in /var/cache/squid/08
+2022/07/06 08:46:04| Set Current Directory to /var/cache/squid
+2022/07/06 08:46:04| Starting Squid Cache version 3.5.27 for x86_64-alpine-linux-musl...
+2022/07/06 08:46:04| Service Name: squid
+2022/07/06 08:46:04| Process ID 1
+2022/07/06 08:46:04| Process Roles: master worker
+2022/07/06 08:46:04| With 1048576 file descriptors available
+2022/07/06 08:46:04| Initializing IP Cache...
+2022/07/06 08:46:04| DNS Socket created at [::], FD 9
+2022/07/06 08:46:04| DNS Socket created at 0.0.0.0, FD 10
+2022/07/06 08:46:04| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2022/07/06 08:46:04| Adding ndots 1 from /etc/resolv.conf
+2022/07/06 08:46:04| helperOpenServers: Starting 5/32 'ssl_crtd' processes
+2022/07/06 08:46:04| Logfile: opening log daemon:/var/log/squid/access.log
+2022/07/06 08:46:04| Logfile Daemon: opening log /var/log/squid/access.log
+2022/07/06 08:46:04| Unlinkd pipe opened on FD 27
+2022/07/06 08:46:04| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2022/07/06 08:46:04| Store logging disabled
+2022/07/06 08:46:04| Swap maxSize 102400 + 262144 KB, estimated 28041 objects
+2022/07/06 08:46:04| Target number of buckets: 1402
+2022/07/06 08:46:04| Using 8192 Store buckets
+2022/07/06 08:46:04| Max Mem  size: 262144 KB
+2022/07/06 08:46:04| Max Swap size: 102400 KB
+2022/07/06 08:46:04| ERROR: /var/cache/squid/09: (2) No such file or directory
+FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+Squid Cache (Version 3.5.27): Terminated abnormally.
+CPU Usage: 0.150 seconds = 0.055 user + 0.095 sys
+Maximum Resident Size: 650352 KB
+Page faults with physical i/o: 532
+2022/07/06 08:46:11 kid1| Set Current Directory to /var/cache/squid
+2022/07/06 08:46:11 kid1| Creating missing swap directories
+2022/07/06 08:46:11 kid1| /var/cache/squid exists
+2022/07/06 08:46:11 kid1| /var/cache/squid/00 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/00
+2022/07/06 08:46:11 kid1| /var/cache/squid/01 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/01
+2022/07/06 08:46:11 kid1| /var/cache/squid/02 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/02
+2022/07/06 08:46:11 kid1| /var/cache/squid/03 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/03
+2022/07/06 08:46:11 kid1| /var/cache/squid/04 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/04
+2022/07/06 08:46:11 kid1| /var/cache/squid/05 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/05
+2022/07/06 08:46:11 kid1| /var/cache/squid/06 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/06
+2022/07/06 08:46:11 kid1| /var/cache/squid/07 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/07
+2022/07/06 08:46:11 kid1| /var/cache/squid/08 exists
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/08
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/94 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/95 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/96 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/97 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/98 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/99 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/9A created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/9B created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/9C created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/9D created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/9E created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/9F created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A0 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A1 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A2 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A3 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A4 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A5 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A6 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A7 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A8 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/A9 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/AA created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/AB created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/AC created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/AD created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/AE created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/AF created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B0 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B1 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B2 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B3 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B4 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B5 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B6 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B7 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B8 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/B9 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/BA created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/BB created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/BC created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/BD created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/BE created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/BF created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C0 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C1 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C2 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C3 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C4 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C5 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C6 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C7 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C8 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/C9 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/CA created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/CB created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/CC created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/CD created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/CE created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/CF created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D0 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D1 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D2 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D3 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D4 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D5 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D6 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D7 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D8 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/D9 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/DA created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/DB created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/DC created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/DD created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/DE created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/DF created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E0 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E1 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E2 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E3 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E4 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E5 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E6 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E7 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E8 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/E9 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/EA created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/EB created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/EC created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/ED created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/EE created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/EF created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F0 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F1 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F2 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F3 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F4 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F5 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F6 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F7 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F8 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/F9 created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/FA created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/FB created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/FC created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/FD created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/FE created
+2022/07/06 08:46:11 kid1| /var/cache/squid/08/FF created
+2022/07/06 08:46:11 kid1| Making directories in /var/cache/squid/09
+2022/07/06 08:46:12 kid1| Making directories in /var/cache/squid/0A
+2022/07/06 08:46:13 kid1| Making directories in /var/cache/squid/0B
+2022/07/06 08:46:13 kid1| Making directories in /var/cache/squid/0C
+2022/07/06 08:46:14 kid1| Making directories in /var/cache/squid/0D
+2022/07/06 08:46:14 kid1| Making directories in /var/cache/squid/0E
+2022/07/06 08:46:15 kid1| Making directories in /var/cache/squid/0F
+2022/07/06 08:46:16| Set Current Directory to /var/cache/squid
+2022/07/06 08:46:16| Starting Squid Cache version 3.5.27 for x86_64-alpine-linux-musl...
+2022/07/06 08:46:16| Service Name: squid
+2022/07/06 08:46:16| Process ID 1
+2022/07/06 08:46:16| Process Roles: master worker
+2022/07/06 08:46:16| With 1048576 file descriptors available
+2022/07/06 08:46:16| Initializing IP Cache...
+2022/07/06 08:46:16| DNS Socket created at [::], FD 9
+2022/07/06 08:46:16| DNS Socket created at 0.0.0.0, FD 10
+2022/07/06 08:46:16| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2022/07/06 08:46:16| Adding ndots 1 from /etc/resolv.conf
+2022/07/06 08:46:16| helperOpenServers: Starting 5/32 'ssl_crtd' processes
+2022/07/06 08:46:16| Logfile: opening log daemon:/var/log/squid/access.log
+2022/07/06 08:46:16| Logfile Daemon: opening log /var/log/squid/access.log
+2022/07/06 08:46:16| Unlinkd pipe opened on FD 27
+2022/07/06 08:46:16| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2022/07/06 08:46:16| Store logging disabled
+2022/07/06 08:46:16| Swap maxSize 102400 + 262144 KB, estimated 28041 objects
+2022/07/06 08:46:16| Target number of buckets: 1402
+2022/07/06 08:46:16| Using 8192 Store buckets
+2022/07/06 08:46:16| Max Mem  size: 262144 KB
+2022/07/06 08:46:16| Max Swap size: 102400 KB
+2022/07/06 08:46:16| Rebuilding storage in /var/cache/squid (no log)
+2022/07/06 08:46:16| Using Least Load store dir selection
+2022/07/06 08:46:16| Set Current Directory to /var/cache/squid
+2022/07/06 08:46:16| Finished loading MIME types and icons.
+2022/07/06 08:46:16| HTCP Disabled.
+2022/07/06 08:46:16| Squid plugin modules loaded: 0
+2022/07/06 08:46:16| Adaptation support is off.
+2022/07/06 08:46:16| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 29 flags=9
+2022/07/06 08:46:16| Accepting SSL bumped HTTP Socket connections at local=[::]:4128 remote=[::] FD 30 flags=9
+2022/07/06 08:46:18| Done scanning /var/cache/squid dir (0 entries)
+2022/07/06 08:46:18| Finished rebuilding storage from disk.
+2022/07/06 08:46:18|         0 Entries scanned
+2022/07/06 08:46:18|         0 Invalid entries.
+2022/07/06 08:46:18|         0 With invalid flags.
+2022/07/06 08:46:18|         0 Objects loaded.
+2022/07/06 08:46:18|         0 Objects expired.
+2022/07/06 08:46:18|         0 Objects cancelled.
+2022/07/06 08:46:18|         0 Duplicate URLs purged.
+2022/07/06 08:46:18|         0 Swapfile clashes avoided.
+2022/07/06 08:46:18|   Took 2.03 seconds (  0.00 objects/sec).
+2022/07/06 08:46:18| Beginning Validation Procedure
+2022/07/06 08:46:18|   Completed Validation Procedure
+2022/07/06 08:46:18|   Validated 0 Entries
+2022/07/06 08:46:18|   store_swap_size = 0.00 KB
+2022/07/06 08:46:18| storeLateRelease: released 0 objects
+2022/07/06 08:56:51 kid1| Set Current Directory to /var/cache/squid
+2022/07/06 08:56:51 kid1| Creating missing swap directories
+2022/07/06 08:56:51 kid1| /var/cache/squid exists
+2022/07/06 08:56:51 kid1| /var/cache/squid/00 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/00
+2022/07/06 08:56:51 kid1| /var/cache/squid/01 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/01
+2022/07/06 08:56:51 kid1| /var/cache/squid/02 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/02
+2022/07/06 08:56:51 kid1| /var/cache/squid/03 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/03
+2022/07/06 08:56:51 kid1| /var/cache/squid/04 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/04
+2022/07/06 08:56:51 kid1| /var/cache/squid/05 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/05
+2022/07/06 08:56:51 kid1| /var/cache/squid/06 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/06
+2022/07/06 08:56:51 kid1| /var/cache/squid/07 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/07
+2022/07/06 08:56:51 kid1| /var/cache/squid/08 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/08
+2022/07/06 08:56:51 kid1| /var/cache/squid/09 exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/09
+2022/07/06 08:56:51 kid1| /var/cache/squid/0A exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/0A
+2022/07/06 08:56:51 kid1| /var/cache/squid/0B exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/0B
+2022/07/06 08:56:51 kid1| /var/cache/squid/0C exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/0C
+2022/07/06 08:56:51 kid1| /var/cache/squid/0D exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/0D
+2022/07/06 08:56:51 kid1| /var/cache/squid/0E exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/0E
+2022/07/06 08:56:51 kid1| /var/cache/squid/0F exists
+2022/07/06 08:56:51 kid1| Making directories in /var/cache/squid/0F
+2022/07/06 08:56:56| Set Current Directory to /var/cache/squid
+2022/07/06 08:56:56| Starting Squid Cache version 3.5.27 for x86_64-alpine-linux-musl...
+2022/07/06 08:56:56| Service Name: squid
+2022/07/06 08:56:56| Process ID 1
+2022/07/06 08:56:56| Process Roles: master worker
+2022/07/06 08:56:56| With 1048576 file descriptors available
+2022/07/06 08:56:56| Initializing IP Cache...
+2022/07/06 08:56:56| DNS Socket created at [::], FD 9
+2022/07/06 08:56:56| DNS Socket created at 0.0.0.0, FD 10
+2022/07/06 08:56:56| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2022/07/06 08:56:56| Adding ndots 1 from /etc/resolv.conf
+2022/07/06 08:56:56| helperOpenServers: Starting 5/32 'ssl_crtd' processes
+2022/07/06 08:56:56| Logfile: opening log daemon:/var/log/squid/access.log
+2022/07/06 08:56:56| Logfile Daemon: opening log /var/log/squid/access.log
+2022/07/06 08:56:56| Unlinkd pipe opened on FD 27
+2022/07/06 08:56:56| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2022/07/06 08:56:56| Store logging disabled
+2022/07/06 08:56:56| Swap maxSize 102400 + 262144 KB, estimated 28041 objects
+2022/07/06 08:56:56| Target number of buckets: 1402
+2022/07/06 08:56:56| Using 8192 Store buckets
+2022/07/06 08:56:56| Max Mem  size: 262144 KB
+2022/07/06 08:56:56| Max Swap size: 102400 KB
+2022/07/06 08:56:56| Rebuilding storage in /var/cache/squid (dirty log)
+2022/07/06 08:56:56| Using Least Load store dir selection
+2022/07/06 08:56:56| Set Current Directory to /var/cache/squid
+2022/07/06 08:56:56| Finished loading MIME types and icons.
+2022/07/06 08:56:56| HTCP Disabled.
+2022/07/06 08:56:56| Squid plugin modules loaded: 0
+2022/07/06 08:56:56| Adaptation support is off.
+2022/07/06 08:56:56| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 30 flags=9
+2022/07/06 08:56:56| Accepting SSL bumped HTTP Socket connections at local=[::]:4128 remote=[::] FD 31 flags=9
+2022/07/06 08:56:56| Done reading /var/cache/squid swaplog (0 entries)
+2022/07/06 08:56:56| Store rebuilding is 0.00% complete
+2022/07/06 08:56:56| Finished rebuilding storage from disk.
+2022/07/06 08:56:56|         0 Entries scanned
+2022/07/06 08:56:56|         0 Invalid entries.
+2022/07/06 08:56:56|         0 With invalid flags.
+2022/07/06 08:56:56|         0 Objects loaded.
+2022/07/06 08:56:56|         0 Objects expired.
+2022/07/06 08:56:56|         0 Objects cancelled.
+2022/07/06 08:56:56|         0 Duplicate URLs purged.
+2022/07/06 08:56:56|         0 Swapfile clashes avoided.
+2022/07/06 08:56:56|   Took 0.03 seconds (  0.00 objects/sec).
+2022/07/06 08:56:56| Beginning Validation Procedure
+2022/07/06 08:56:56|   Completed Validation Procedure
+2022/07/06 08:56:56|   Validated 0 Entries
+2022/07/06 08:56:56|   store_swap_size = 0.00 KB
+2022/07/06 08:56:57| storeLateRelease: released 0 objects
+2022/07/06 09:01:22| Preparing for shutdown after 0 requests
+2022/07/06 09:01:22| Waiting 30 seconds for active connections to finish
+2022/07/06 09:01:22| Closing HTTP port [::]:3128
+2022/07/06 09:01:22| Closing HTTP port [::]:4128
